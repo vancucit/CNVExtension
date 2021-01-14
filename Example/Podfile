@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'CNVExtension_Example' do
+  pod 'CNVExtension', :path => '../'
+
+  target 'CNVExtension_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
