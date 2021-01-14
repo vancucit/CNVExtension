@@ -1,0 +1,6 @@
+framework module CNVExtension {
+  umbrella header "CNVExtension-umbrella.h"
+
+  export *
+  module * { export * }
+}

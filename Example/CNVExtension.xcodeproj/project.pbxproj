@@ -28,7 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		541E458C7CC0962D63A6D2CA /* CNVExtension.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = CNVExtension.podspec; path = ../CNVExtension.podspec; sourceTree = "<group>"; };
+		541E458C7CC0962D63A6D2CA /* CNVExtension.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CNVExtension.podspec; path = ../CNVExtension.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		5A7DDCFC9F79AE6CED56E92A /* Pods-CNVExtension_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CNVExtension_Tests.debug.xcconfig"; path = "Target Support Files/Pods-CNVExtension_Tests/Pods-CNVExtension_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		5C0A9485F366B6C05A4ADF8E /* Pods-CNVExtension_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CNVExtension_Tests.release.xcconfig"; path = "Target Support Files/Pods-CNVExtension_Tests/Pods-CNVExtension_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		5D92AE7B620C1ACDDE2B09ED /* Pods-CNVExtension_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CNVExtension_Example.debug.xcconfig"; path = "Target Support Files/Pods-CNVExtension_Example/Pods-CNVExtension_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -43,9 +43,9 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		621342B4F8A4502060A2369E /* Pods-CNVExtension_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CNVExtension_Example.release.xcconfig"; path = "Target Support Files/Pods-CNVExtension_Example/Pods-CNVExtension_Example.release.xcconfig"; sourceTree = "<group>"; };
-		801C5CC03B1BACB14C370CB9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		801C5CC03B1BACB14C370CB9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		87935838DD8372E324206F50 /* Pods_CNVExtension_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CNVExtension_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D987D3F78499C44CADD5F9C4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		D987D3F78499C44CADD5F9C4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		EECC0951A5096F1A3DD6DE07 /* Pods_CNVExtension_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CNVExtension_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -156,7 +156,6 @@
 				5A7DDCFC9F79AE6CED56E92A /* Pods-CNVExtension_Tests.debug.xcconfig */,
 				5C0A9485F366B6C05A4ADF8E /* Pods-CNVExtension_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

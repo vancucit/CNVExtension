@@ -1,0 +1,16 @@
+PODS:
+  - CNVExtension (0.1.0)
+
+DEPENDENCIES:
+  - CNVExtension (from `../`)
+
+EXTERNAL SOURCES:
+  CNVExtension:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CNVExtension: aba4453492c73b9a928b3ed872b0c016efdffa2a
+
+PODFILE CHECKSUM: f1b0e19c7f2896f292b1cd7374e3f8e1cbdc3d96
+
+COCOAPODS: 1.10.0

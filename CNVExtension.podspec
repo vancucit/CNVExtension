@@ -8,20 +8,19 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CNVExtension'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of CNVExtension.'
-
+  s.version          = '1.0.1'
+  s.summary          = 'A short summary of CNVExtension.'
+  s.pod_target_xcconfig = { 'SWIFT_VERSION' => '4.0' }
+  s.swift_version      = '5.3'
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
 #   * Try to keep it short, snappy and to the point.
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  s.description      = "This CocoaPod provides the ability to use a UILabel that may be started and stopped blinking"
 
-  s.homepage         = 'https://github.com/vancucit@gmail.com/CNVExtension'
+  s.homepage         = 'https://github.com/vancucit/CNVExtension.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'vancucit@gmail.com' => 'vancucit@gmail.com' }
